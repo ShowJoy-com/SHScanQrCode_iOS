@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC9B46021EDEBFB6000EAD68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B46011EDEBFB6000EAD68 /* main.m */; };
+		BC9B46051EDEBFB6000EAD68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B46041EDEBFB6000EAD68 /* AppDelegate.m */; };
+		BC9B46081EDEBFB6000EAD68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B46071EDEBFB6000EAD68 /* ViewController.m */; };
+		BC9B460B1EDEBFB6000EAD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9B46091EDEBFB6000EAD68 /* Main.storyboard */; };
+		BC9B460D1EDEBFB6000EAD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9B460C1EDEBFB6000EAD68 /* Assets.xcassets */; };
+		BC9B46101EDEBFB6000EAD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9B460E1EDEBFB6000EAD68 /* LaunchScreen.storyboard */; };
+		BC9B461B1EDEBFB6000EAD68 /* SHScanQrCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B461A1EDEBFB6000EAD68 /* SHScanQrCodeTests.m */; };
+		BC9B46261EDEBFB6000EAD68 /* SHScanQrCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B46251EDEBFB6000EAD68 /* SHScanQrCodeUITests.m */; };
+		BC9B463D1EDEBFD5000EAD68 /* LineSao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9B46351EDEBFD5000EAD68 /* LineSao@2x.png */; };
+		BC9B463E1EDEBFD5000EAD68 /* LineSao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9B46361EDEBFD5000EAD68 /* LineSao@3x.png */; };
+		BC9B463F1EDEBFD5000EAD68 /* SaoBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9B46371EDEBFD5000EAD68 /* SaoBack@2x.png */; };
+		BC9B46401EDEBFD5000EAD68 /* SaoBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC9B46381EDEBFD5000EAD68 /* SaoBack@3x.png */; };
+		BC9B46411EDEBFD5000EAD68 /* ScanQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B463A1EDEBFD5000EAD68 /* ScanQrCodeViewController.m */; };
+		BC9B46421EDEBFD5000EAD68 /* UIView+Recognize.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9B463C1EDEBFD5000EAD68 /* UIView+Recognize.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC9B46171EDEBFB6000EAD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9B45F51EDEBFB6000EAD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B45FC1EDEBFB6000EAD68;
+			remoteInfo = SHScanQrCode;
+		};
+		BC9B46221EDEBFB6000EAD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC9B45F51EDEBFB6000EAD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B45FC1EDEBFB6000EAD68;
+			remoteInfo = SHScanQrCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC9B45FD1EDEBFB6000EAD68 /* SHScanQrCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHScanQrCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9B46011EDEBFB6000EAD68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC9B46031EDEBFB6000EAD68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC9B46041EDEBFB6000EAD68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC9B46061EDEBFB6000EAD68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC9B46071EDEBFB6000EAD68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC9B460A1EDEBFB6000EAD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9B460C1EDEBFB6000EAD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC9B460F1EDEBFB6000EAD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC9B46111EDEBFB6000EAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9B46161EDEBFB6000EAD68 /* SHScanQrCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHScanQrCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9B461A1EDEBFB6000EAD68 /* SHScanQrCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHScanQrCodeTests.m; sourceTree = "<group>"; };
+		BC9B461C1EDEBFB6000EAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9B46211EDEBFB6000EAD68 /* SHScanQrCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHScanQrCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9B46251EDEBFB6000EAD68 /* SHScanQrCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHScanQrCodeUITests.m; sourceTree = "<group>"; };
+		BC9B46271EDEBFB6000EAD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9B46351EDEBFD5000EAD68 /* LineSao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LineSao@2x.png"; sourceTree = "<group>"; };
+		BC9B46361EDEBFD5000EAD68 /* LineSao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LineSao@3x.png"; sourceTree = "<group>"; };
+		BC9B46371EDEBFD5000EAD68 /* SaoBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaoBack@2x.png"; sourceTree = "<group>"; };
+		BC9B46381EDEBFD5000EAD68 /* SaoBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SaoBack@3x.png"; sourceTree = "<group>"; };
+		BC9B46391EDEBFD5000EAD68 /* ScanQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanQrCodeViewController.h; sourceTree = "<group>"; };
+		BC9B463A1EDEBFD5000EAD68 /* ScanQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanQrCodeViewController.m; sourceTree = "<group>"; };
+		BC9B463B1EDEBFD5000EAD68 /* UIView+Recognize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Recognize.h"; sourceTree = "<group>"; };
+		BC9B463C1EDEBFD5000EAD68 /* UIView+Recognize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Recognize.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9B45FA1EDEBFB6000EAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B46131EDEBFB6000EAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B461E1EDEBFB6000EAD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC9B45F41EDEBFB6000EAD68 = {
+			isa = PBXGroup;
+			children = (
+				BC9B45FF1EDEBFB6000EAD68 /* SHScanQrCode */,
+				BC9B46191EDEBFB6000EAD68 /* SHScanQrCodeTests */,
+				BC9B46241EDEBFB6000EAD68 /* SHScanQrCodeUITests */,
+				BC9B45FE1EDEBFB6000EAD68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9B45FE1EDEBFB6000EAD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B45FD1EDEBFB6000EAD68 /* SHScanQrCode.app */,
+				BC9B46161EDEBFB6000EAD68 /* SHScanQrCodeTests.xctest */,
+				BC9B46211EDEBFB6000EAD68 /* SHScanQrCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9B45FF1EDEBFB6000EAD68 /* SHScanQrCode */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B46331EDEBFD5000EAD68 /* SHScanQrCode */,
+				BC9B46031EDEBFB6000EAD68 /* AppDelegate.h */,
+				BC9B46041EDEBFB6000EAD68 /* AppDelegate.m */,
+				BC9B46061EDEBFB6000EAD68 /* ViewController.h */,
+				BC9B46071EDEBFB6000EAD68 /* ViewController.m */,
+				BC9B46091EDEBFB6000EAD68 /* Main.storyboard */,
+				BC9B460C1EDEBFB6000EAD68 /* Assets.xcassets */,
+				BC9B460E1EDEBFB6000EAD68 /* LaunchScreen.storyboard */,
+				BC9B46111EDEBFB6000EAD68 /* Info.plist */,
+				BC9B46001EDEBFB6000EAD68 /* Supporting Files */,
+			);
+			path = SHScanQrCode;
+			sourceTree = "<group>";
+		};
+		BC9B46001EDEBFB6000EAD68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B46011EDEBFB6000EAD68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC9B46191EDEBFB6000EAD68 /* SHScanQrCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B461A1EDEBFB6000EAD68 /* SHScanQrCodeTests.m */,
+				BC9B461C1EDEBFB6000EAD68 /* Info.plist */,
+			);
+			path = SHScanQrCodeTests;
+			sourceTree = "<group>";
+		};
+		BC9B46241EDEBFB6000EAD68 /* SHScanQrCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B46251EDEBFB6000EAD68 /* SHScanQrCodeUITests.m */,
+				BC9B46271EDEBFB6000EAD68 /* Info.plist */,
+			);
+			path = SHScanQrCodeUITests;
+			sourceTree = "<group>";
+		};
+		BC9B46331EDEBFD5000EAD68 /* SHScanQrCode */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B46341EDEBFD5000EAD68 /* Image */,
+				BC9B46391EDEBFD5000EAD68 /* ScanQrCodeViewController.h */,
+				BC9B463A1EDEBFD5000EAD68 /* ScanQrCodeViewController.m */,
+				BC9B463B1EDEBFD5000EAD68 /* UIView+Recognize.h */,
+				BC9B463C1EDEBFD5000EAD68 /* UIView+Recognize.m */,
+			);
+			path = SHScanQrCode;
+			sourceTree = "<group>";
+		};
+		BC9B46341EDEBFD5000EAD68 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BC9B46351EDEBFD5000EAD68 /* LineSao@2x.png */,
+				BC9B46361EDEBFD5000EAD68 /* LineSao@3x.png */,
+				BC9B46371EDEBFD5000EAD68 /* SaoBack@2x.png */,
+				BC9B46381EDEBFD5000EAD68 /* SaoBack@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9B45FC1EDEBFB6000EAD68 /* SHScanQrCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9B462A1EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCode" */;
+			buildPhases = (
+				BC9B45F91EDEBFB6000EAD68 /* Sources */,
+				BC9B45FA1EDEBFB6000EAD68 /* Frameworks */,
+				BC9B45FB1EDEBFB6000EAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHScanQrCode;
+			productName = SHScanQrCode;
+			productReference = BC9B45FD1EDEBFB6000EAD68 /* SHScanQrCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC9B46151EDEBFB6000EAD68 /* SHScanQrCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9B462D1EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeTests" */;
+			buildPhases = (
+				BC9B46121EDEBFB6000EAD68 /* Sources */,
+				BC9B46131EDEBFB6000EAD68 /* Frameworks */,
+				BC9B46141EDEBFB6000EAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9B46181EDEBFB6000EAD68 /* PBXTargetDependency */,
+			);
+			name = SHScanQrCodeTests;
+			productName = SHScanQrCodeTests;
+			productReference = BC9B46161EDEBFB6000EAD68 /* SHScanQrCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC9B46201EDEBFB6000EAD68 /* SHScanQrCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9B46301EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeUITests" */;
+			buildPhases = (
+				BC9B461D1EDEBFB6000EAD68 /* Sources */,
+				BC9B461E1EDEBFB6000EAD68 /* Frameworks */,
+				BC9B461F1EDEBFB6000EAD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC9B46231EDEBFB6000EAD68 /* PBXTargetDependency */,
+			);
+			name = SHScanQrCodeUITests;
+			productName = SHScanQrCodeUITests;
+			productReference = BC9B46211EDEBFB6000EAD68 /* SHScanQrCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9B45F51EDEBFB6000EAD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YunRuo;
+				TargetAttributes = {
+					BC9B45FC1EDEBFB6000EAD68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TA37MW247M;
+						ProvisioningStyle = Automatic;
+					};
+					BC9B46151EDEBFB6000EAD68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TA37MW247M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC9B45FC1EDEBFB6000EAD68;
+					};
+					BC9B46201EDEBFB6000EAD68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = TA37MW247M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC9B45FC1EDEBFB6000EAD68;
+					};
+				};
+			};
+			buildConfigurationList = BC9B45F81EDEBFB6000EAD68 /* Build configuration list for PBXProject "SHScanQrCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9B45F41EDEBFB6000EAD68;
+			productRefGroup = BC9B45FE1EDEBFB6000EAD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9B45FC1EDEBFB6000EAD68 /* SHScanQrCode */,
+				BC9B46151EDEBFB6000EAD68 /* SHScanQrCodeTests */,
+				BC9B46201EDEBFB6000EAD68 /* SHScanQrCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9B45FB1EDEBFB6000EAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B46101EDEBFB6000EAD68 /* LaunchScreen.storyboard in Resources */,
+				BC9B463F1EDEBFD5000EAD68 /* SaoBack@2x.png in Resources */,
+				BC9B460D1EDEBFB6000EAD68 /* Assets.xcassets in Resources */,
+				BC9B46401EDEBFD5000EAD68 /* SaoBack@3x.png in Resources */,
+				BC9B463D1EDEBFD5000EAD68 /* LineSao@2x.png in Resources */,
+				BC9B460B1EDEBFB6000EAD68 /* Main.storyboard in Resources */,
+				BC9B463E1EDEBFD5000EAD68 /* LineSao@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B46141EDEBFB6000EAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B461F1EDEBFB6000EAD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9B45F91EDEBFB6000EAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B46081EDEBFB6000EAD68 /* ViewController.m in Sources */,
+				BC9B46051EDEBFB6000EAD68 /* AppDelegate.m in Sources */,
+				BC9B46021EDEBFB6000EAD68 /* main.m in Sources */,
+				BC9B46411EDEBFD5000EAD68 /* ScanQrCodeViewController.m in Sources */,
+				BC9B46421EDEBFD5000EAD68 /* UIView+Recognize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B46121EDEBFB6000EAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B461B1EDEBFB6000EAD68 /* SHScanQrCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9B461D1EDEBFB6000EAD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B46261EDEBFB6000EAD68 /* SHScanQrCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC9B46181EDEBFB6000EAD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9B45FC1EDEBFB6000EAD68 /* SHScanQrCode */;
+			targetProxy = BC9B46171EDEBFB6000EAD68 /* PBXContainerItemProxy */;
+		};
+		BC9B46231EDEBFB6000EAD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC9B45FC1EDEBFB6000EAD68 /* SHScanQrCode */;
+			targetProxy = BC9B46221EDEBFB6000EAD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC9B46091EDEBFB6000EAD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9B460A1EDEBFB6000EAD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9B460E1EDEBFB6000EAD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9B460F1EDEBFB6000EAD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9B46281EDEBFB6000EAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC9B46291EDEBFB6000EAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9B462B1EDEBFB6000EAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC9B462C1EDEBFB6000EAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC9B462E1EDEBFB6000EAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHScanQrCode.app/SHScanQrCode";
+			};
+			name = Debug;
+		};
+		BC9B462F1EDEBFB6000EAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHScanQrCode.app/SHScanQrCode";
+			};
+			name = Release;
+		};
+		BC9B46311EDEBFB6000EAD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SHScanQrCode;
+			};
+			name = Debug;
+		};
+		BC9B46321EDEBFB6000EAD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TA37MW247M;
+				INFOPLIST_FILE = SHScanQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SHScanQrCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9B45F81EDEBFB6000EAD68 /* Build configuration list for PBXProject "SHScanQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9B46281EDEBFB6000EAD68 /* Debug */,
+				BC9B46291EDEBFB6000EAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9B462A1EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9B462B1EDEBFB6000EAD68 /* Debug */,
+				BC9B462C1EDEBFB6000EAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9B462D1EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9B462E1EDEBFB6000EAD68 /* Debug */,
+				BC9B462F1EDEBFB6000EAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC9B46301EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9B46311EDEBFB6000EAD68 /* Debug */,
+				BC9B46321EDEBFB6000EAD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9B45F51EDEBFB6000EAD68 /* Project object */;
+}
