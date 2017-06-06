@@ -473,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TA37MW247M;
 				INFOPLIST_FILE = SHScanQrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TA37MW247M;
 				INFOPLIST_FILE = SHScanQrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YunRuo.SHScanQrCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +562,7 @@
 				BC9B462C1EDEBFB6000EAD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9B462D1EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +571,7 @@
 				BC9B462F1EDEBFB6000EAD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9B46301EDEBFB6000EAD68 /* Build configuration list for PBXNativeTarget "SHScanQrCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +580,7 @@
 				BC9B46321EDEBFB6000EAD68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

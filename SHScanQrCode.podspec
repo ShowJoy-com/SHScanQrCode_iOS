@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = "SHScanQrCode"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "SHScanQrCode"
     s.description  = "SHScanQrCode ShowJoy"
     s.homepage     = "https://github.com/ShowJoy-com/SHScanQrCode_iOS.git"
